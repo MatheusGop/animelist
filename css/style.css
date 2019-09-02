@@ -23,6 +23,22 @@ nav div.nav-wrapper a.brand-logo {
     padding: 15px;
 }
 
+.banner-image {
+    backface-visibility: hidden;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity .5s ease-in-out;
+    width: 100%;
+    z-index: 10;
+}
+
 main {
     margin-top: -110px;
     position: relative;
