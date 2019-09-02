@@ -3,6 +3,28 @@ body, html {
     background: #EDF1F5;
 }
 
+nav {
+    background: #2b2d42;
+    color: #fff;
+    height: 233px;
+    width: 100%;
+    padding-top: 40px;
+    position: relative;
+}
+
+nav div.nav-wrapper ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: -110px;
+    position: relative;
+    z-index: 60;
+    margin-bottom: 300px;
+}
+
 div.card.horizontal div.card-image img {
     height: 280px;
 }
