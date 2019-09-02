@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    background: #EDF1F5;
+}
+
+div.card.horizontal div.card-image img {
+    height: 280px;
+}
+
+div.container-all div.row div.col.s4.col-card-animes {
+    padding: 10px;
+}
+
+div.container-all div.row {
+    margin-bottom: 0;
+}
