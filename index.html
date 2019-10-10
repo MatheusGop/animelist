@@ -8,39 +8,77 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>AniList</title>
 </head>
 
 <body>
-
     <header>
         <nav>
-            <div data-id="1" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/100668-9ZQSB5x5St7c.jpg');"></div>
-            <div data-id="2" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/101547-nhN21oDAyopV.jpg');"></div>
-            <div data-id="3" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/105333-KWKGvBM8Hyga.jpg');"></div>
-            <div data-id="4" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/101167-VirZ21Z7DGZk.jpg');"></div>
-            <div data-id="5" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/105310-5OEWWnzQOTyW.jpg');"></div>
-            <div data-id="6" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/107663-tIwWetvU4k6W.jpg');"></div>
-            <div data-id="7" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/104723-AUm3TIVj0RH3.jpg');"></div>
-            <div data-id="8" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-pivKKffCAwAY.jpg');"></div>
-            <div data-id="9" class="banner-image" style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/104463-v7vEFcEgze0l.jpg');"></div>
+            <div data-id="1" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/100668-9ZQSB5x5St7c.jpg');">
+            </div>
+            <div data-id="2" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/101547-nhN21oDAyopV.jpg');">
+            </div>
+            <div data-id="3" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/105333-KWKGvBM8Hyga.jpg');">
+            </div>
+            <div data-id="4" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/101167-VirZ21Z7DGZk.jpg');">
+            </div>
+            <div data-id="5" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/105310-5OEWWnzQOTyW.jpg');">
+            </div>
+            <div data-id="6" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/107663-tIwWetvU4k6W.jpg');">
+            </div>
+            <div data-id="7" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/104723-AUm3TIVj0RH3.jpg');">
+            </div>
+            <div data-id="8" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-pivKKffCAwAY.jpg');">
+            </div>
+            <div data-id="9" class="banner-image"
+                style="background-image: url('https://s4.anilist.co/file/anilistcdn/media/anime/banner/104463-v7vEFcEgze0l.jpg');">
+            </div>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo"><span>Ani</span><span style="color: #41B1EA">List</span></a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="hide-on-med-and-down">
-                    <li><a href=""><span>Lista de animes</span></a></li>
+                    <li><a href="index.html"><span>Lista de animes</span></a></li>
                     <li><a href=""><span>Contato</span></a></li>
                     <li><a href=""><span>Sobre</span></a></li>
                 </ul>
             </div>
         </nav>
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="images/office.jpg">
+                    </div>
+                    <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                    <a href="#name"><span class="white-text name">John Doe</span></a>
+                    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div>
+            </li>
+            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </ul>
     </header>
 
     <main>
         <div class="container">
             <div class="row">
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="1">
                         <div class="card-image">
                             <img src="cover/arifureta.jpg">
@@ -55,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="2">
                         <div class="card-image">
                             <img src="cover/isekai.jpg">
@@ -70,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="3">
                         <div class="card-image">
                             <img src="cover/drstone.jpg">
@@ -87,7 +125,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="4">
                         <div class="card-image">
                             <img src="cover/danmachi.jpg">
@@ -102,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="5">
                         <div class="card-image">
                             <img src="cover/fireforce.jpg">
@@ -117,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="6">
                         <div class="card-image">
                             <img src="cover/kanata.jpg">
@@ -134,7 +172,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="7">
                         <div class="card-image">
                             <img src="cover/sword.jpg">
@@ -149,7 +187,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="8">
                         <div class="card-image">
                             <img src="cover/vilandsaga.jpg">
@@ -164,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s4 col-card-animes">
+                <div class="col s12 m12 l4 xl4 col-card-animes">
                     <div class="card horizontal card-anime" data-id="9">
                         <div class="card-image">
                             <img src="cover/accelerator.jpg">
